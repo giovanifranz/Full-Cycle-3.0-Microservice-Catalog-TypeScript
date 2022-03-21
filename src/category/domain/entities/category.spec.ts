@@ -1,3 +1,4 @@
+import {describe, expect, test} from '@jest/globals';
 import { Category, CategoryProps } from "./category";
 import { omit } from "lodash";
 import UniqueEntityId from "../../../@seedwork/domain/unique-entity-id.vo";

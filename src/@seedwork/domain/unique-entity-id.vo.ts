@@ -7,7 +7,7 @@ export default class UniqueEntityId {
     this.validate();
   }
 
-  private uuidValidate(uuid: string) {
+  private uuidValidate(uuid: string):boolean {
     const regexTest = uuid.match(
       "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
     );
